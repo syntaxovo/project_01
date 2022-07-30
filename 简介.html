@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* 
+        Git 是开源的分布式版本控制系统，可以快速高效的处理从很小到非常大的项目版本管理
+        特点：项目越大越复杂，越能体现出Git的高性能和高可用性
+            1直接记录快照，而非差异性比较
+            2 近乎所有的操作都是本地执行
+        Git 三个区域：工作区、暂存区、Git仓库
+            三种状态： 已修改 modified 、已暂存 staged 、已提交 conmmittedd
+
+            Git命令： git config  --global 设置全局变量 
+                 git config --global user.name
+                  git config --global   user.email
+                git config -h 获取帮助文档
+
+            获取git仓库：1 将尚未进行版本控制的本地目录转换为git仓库
+                        2  从其他服务器克隆一个已存在的git仓库
+            在现有目录中初始化仓库：自己有一个尚未进行版本控制的项目目录，
+                     想要用Git控制它 ：1在项目目录中，通过鼠标右键打开“Git bash"
+                        2 执行 git init 命令将当前的目录转化为GIt 仓库(git init 命令会创建一个名为 .git的隐藏目录
+                        这个 .git目录就是当前项目的Git仓库，里面包含了初始的必要文件这些文件是git的必要组成部分) 
+        
+            工作区文件的4种状态：
+                未修改、已修改、已暂存、未跟踪
+            检查文件状态：git status
+            git add 文件名 开始跟踪一个文件，并处于暂存状态
+                    新添加到暂存区的文件前面有绿色的A标记
+        */
+    </script>
+</body>
+</html>
